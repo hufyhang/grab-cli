@@ -43,3 +43,8 @@ Example output:
 { "data" : [{"href" : "/about.html", "inner" : "This is an example output."}]}
 `````
 
+Exception
+=========
+
+* If no match can be found, a TypeError exception will be thrown.
+
