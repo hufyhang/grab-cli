@@ -20,7 +20,8 @@ Usage
 * To grab inner HTML without DOM attributes:
 
         grab --url "http://localhost/index.html" --dom "html body div.banner a"
-        or
+  or
+
         grab -u "http://localhost/index.html" -d "html body div.banner a"
 
 Example output:
@@ -30,7 +31,8 @@ Example output:
 * To grab with attribute (**grab-cli can ONLY fetch ONE attribute at the moment due to the limit of jQuery.go.js**)
 
         grab --url "http://localhost/index.html" --dom "html body div.banner a" --attr "href"
-        or
+  or
+
         grab -u "http://localhost/index.html" -d "html body div.banner a" -a "href"
 
 Example output:
