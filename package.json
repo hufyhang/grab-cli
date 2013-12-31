@@ -18,7 +18,7 @@
     }
     ],
     "bin": {
-        "cook": "bin/grab.bin.js"
+        "grab": "bin/grab.bin.js"
     },
     "engines": {
         "node": ">= 0.8.0"
