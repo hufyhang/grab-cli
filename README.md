@@ -26,7 +26,9 @@ Usage
 
 Example output:
 
-        { "data" : [{"inner" : "This is an example output."}]}
+````` {.json}
+{ "data" : [{"inner" : "This is an example output."}]}
+`````
 
 * To grab with attribute (**grab-cli can ONLY fetch ONE attribute at the moment due to the limit of jQuery.go.js**)
 
@@ -37,5 +39,7 @@ Example output:
 
 Example output:
 
-        { "data" : [{"href" : "/about.html", "inner" : "This is an example output."}]}
+````` {.json}
+{ "data" : [{"href" : "/about.html", "inner" : "This is an example output."}]}
+`````
 
