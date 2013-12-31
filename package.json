@@ -3,33 +3,29 @@
     "description": "This CLI tool grabs DOM attributes and inner HTML from Web pages.",
     "version": "0.0.1",
     "author": "Feifei Hang",
-    "homepage": "https://github.com/hufyhang/cook",
+    "homepage": "https://github.com/hufyhang/grab-cli",
     "repository": {
         "type": "git",
-        "url": "https://github.com/hufyhang/cook"
+        "url": "https://github.com/hufyhang/grab-cli"
     },
     "bugs": {
-        "url": "https://github.com/hufyhang/cook/issues"
+        "url": "https://github.com/hufyhang/grab-cli/issues"
     },
     "licenses": [
     {
         "type": "MIT",
-        "url": "https://github.com/hufyhang/cook/blob/master/LICENSE"
+        "url": "https://github.com/hufyhang/grab-cli/blob/master/LICENSE"
     }
     ],
     "bin": {
-        "cook": "bin/cook.bin.js"
+        "cook": "bin/grab.bin.js"
     },
     "engines": {
         "node": ">= 0.8.0"
     },
     "dependencies": {
-        "colors": "latest",
         "optimist": "latest",
-        "mkdirp": "latest",
-        "request": "latest",
-        "npm": "latest",
-        "prompt": "latest"
+        "jquerygo": "latest"
     }
 }
 
